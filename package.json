@@ -1,0 +1,22 @@
+{
+  "name": "clientkit-playground",
+  "private": true,
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently 'npm run clientkit' 'npm run server'",
+    "clientkit": "clientkit dev --color",
+    "server": "static-server -p 8080 -i index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Greg Allen <code@firstandthird.com> (http://firstandthird.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "clientkit": "^1.0.0-alpha.14",
+    "clientkit-livereload": "0.0.3",
+    "concurrently": "^3.1.0",
+    "domodule": "^3.1.0",
+    "static-server": "^2.0.3"
+  }
+}

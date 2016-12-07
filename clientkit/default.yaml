@@ -1,0 +1,17 @@
+assetPath: 'ui'
+dist: '_dist'
+
+stylesheets:
+  files:
+    'common.css': '{{assetPath}}/common.css'
+scripts:
+  files:
+    'common.js': '{{assetPath}}/common.js'
+
+tasks:
+  livereload: 'clientkit-livereload'
+livereload:
+  port: 8081
+watcher:
+  files:
+    '{{dist}}/*': 'livereload'
