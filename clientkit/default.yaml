@@ -9,9 +9,16 @@ scripts:
     'common.js': '{{assetPath}}/common.js'
 
 tasks:
-  livereload: 'clientkit-livereload'
+  livereload: '{{CWD}}/node_modules/clientkit-livereload'
+  nunjucks: '{{CWD}}/node_modules/clientkit-nunjucks'
 livereload:
   port: 8081
 watcher:
   files:
     '{{dist}}/*': 'livereload'
+    '{{assetPath}}/*.njk': 'nunjucks'
+nunjucks:
+  files:
+    '{{dist}}/index.html': 
+      input: 'ui/home.njk'
+      type: 'compile'
