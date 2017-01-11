@@ -14,7 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "clientkit": "^1.0.0-alpha.14",
-    "clientkit-livereload": "0.0.3",
+    "clientkit-livereload": "0.0.4",
     "clientkit-nunjucks": "^1.1.0",
     "concurrently": "^3.1.0",
     "domodule": "^3.1.0",
