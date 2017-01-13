@@ -9,8 +9,8 @@ scripts:
     'common.js': '{{assetPath}}/common.js'
 
 tasks:
-  livereload: '{{CWD}}/node_modules/clientkit-livereload'
-  nunjucks: '{{CWD}}/node_modules/clientkit-nunjucks'
+  livereload: 'runkit-livereload'
+  nunjucks: 'runkit-nunjucks'
 livereload:
   port: 8081
 watcher:
