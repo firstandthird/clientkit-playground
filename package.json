@@ -18,7 +18,7 @@
     "runkit-nunjucks": "2.0.0",
     "concurrently": "3.1.0",
     "domodule": "4.0.0",
-    "static-server": "2.0.3"
+    "static-server": "2.0.4"
   },
   "devDependencies": {
     "eslint-config-firstandthird": "^3.2.0",
