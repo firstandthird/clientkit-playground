@@ -17,7 +17,7 @@
     "runkit-livereload": "0.0.5",
     "runkit-nunjucks": "2.0.0",
     "concurrently": "3.1.0",
-    "domodule": "4.0.0",
+    "domodule": "4.0.1",
     "static-server": "2.0.3"
   },
   "devDependencies": {
