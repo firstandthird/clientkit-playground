@@ -9,14 +9,14 @@ scripts:
     'common.js': '{{assetPath}}/common.js'
 
 tasks:
-  livereload: 'runkit-livereload'
-  nunjucks: 'runkit-nunjucks'
+  livereload: 'taskkit-livereload'
+  #nunjucks: 'taskkit-nunjucks'
 livereload:
   port: 8081
 watcher:
   files:
     '{{dist}}/*': 'livereload'
-    '{{assetPath}}/*.njk': 'nunjucks'
+    #'{{assetPath}}/*.njk': 'nunjucks'
 nunjucks:
   files:
     '{{dist}}/index.html': 
