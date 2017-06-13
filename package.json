@@ -17,7 +17,7 @@
     "taskkit-livereload": "0.0.6",
     "taskkit-nunjucks": "3.0.0",
     "concurrently": "3.1.0",
-    "domodule": "5.0.0",
+    "domodule": "5.0.1",
     "static-server": "2.0.3"
   },
   "devDependencies": {
